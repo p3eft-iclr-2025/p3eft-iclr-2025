@@ -586,8 +586,6 @@ def detect_last_checkpoint(training_args):
 
 
 def get_base_model(model_args, finetuning_task, num_labels):
-    if "Llama" in model_args.model_name_or_path:
-        model_args.token = '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'
 
     # Load pretrained model and tokenizer
     #
